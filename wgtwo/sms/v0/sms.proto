@@ -21,6 +21,7 @@ import "wgtwo/common/v0/phonenumber.proto";
 
 option java_package = "com.wgtwo.api.sms.v0";
 option java_outer_classname = "SmsProto";
+option go_package = "/v0/wgtwo;wgtwo";
 
 service SmsService {
   rpc SendTextToSubscriber (SendTextToSubscriberRequest) returns (SendResponse) {}

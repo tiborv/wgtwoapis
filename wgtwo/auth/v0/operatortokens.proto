@@ -19,6 +19,8 @@ package wgtwo.auth.v0;
 
 option java_package = "com.wgtwo.api.auth.v0";
 option java_outer_classname = "OperatorTokensProto";
+option go_package = "/v0/wgtwo;wgtwo";
+
 
 message OperatorTokenMetadata {
     string client_id = 1;
